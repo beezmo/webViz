@@ -1,0 +1,12 @@
+body {
+    background-color:lightgray;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    background-color: lightgray;
+}
+
+.bgwhite {
+    background-color: white;
+}
