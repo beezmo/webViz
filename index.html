@@ -39,6 +39,33 @@
       </ul>
     </div>
   </nav>
-  <div class = "bgcolor"></div>  
+  <div class="container m-4">
+    <div class="row">
+      <div class="col-12 col-md-8">
+        <div class="bg-white pt-5 pb-4 px-4">
+          <h3 class = "text-info font-weight-bold">Summary: Latitude vs. X</h3>
+          <br><hr>
+          <div class="wrapper">
+            <img src="maxtemp.png" alt="" class="summarypic">
+            <p>The purpose of this project was to compare and analyze weather trends based
+              on distance from the equator. A random list of 628 cities were queried using 
+              OpenWeatherMap API to retrieve forecasts from that day, June 28, 2019. The list
+              of cities itself was collected by passing a 1500x1500 grid of coordinate pairs 
+              through the citipy module, which locates nearby cities.
+              <br><br>
+              The dataset was then plotted using Matplotlib on four attributes vs latitude: max 
+              temp, humidity, cloudiness, and wind speed. The results of the study are further
+              detailed here along with analysis and graphs.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="bg-white pt-5 pb-4 px-4">
+          <h5 class = "text-info font-weight-bold">Visualizations</h5>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
